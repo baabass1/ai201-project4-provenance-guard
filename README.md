@@ -680,3 +680,10 @@ Several enhancements could improve Provenance Guard in future versions.
 # Conclusion
 
 Provenance Guard demonstrates a practical approach to AI content detection by combining multiple detection signals with confidence scoring, transparent explanations, audit logging, and a human appeals process. Rather than presenting AI detection as certain, the system communicates uncertainty honestly and provides users with mechanisms to review and challenge automated decisions.
+
+# Project Walkthrough Video
+
+A short walkthrough demonstrating the project, its architecture, API endpoints, and core functionality is available below.
+
+**Project Walkthrough (Google Drive):**  
+https://drive.google.com/drive/folders/1VDwmSrxnEUg8ej_bImq0Hh4JFK81-oB3?usp=sharing
