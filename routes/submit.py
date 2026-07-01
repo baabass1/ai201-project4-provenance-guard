@@ -1,3 +1,4 @@
+from services.transparency import generate_transparency_label
 from detectors.stylometry import analyze_style
 from detectors.confidence import calculate_confidence
 from detectors.llm_detector import detect_ai
@@ -18,6 +19,13 @@ def submit():
 
     result = calculate_confidence(llm_score, style_score)
 
+    transparency = generate_transparency_label(
+    llm_score,
+    style_score,
+    result["confidence"],
+    result["label"]
+    )
+
     return jsonify({
     "message": "Submission received",
     "text": text,
@@ -25,5 +33,6 @@ def submit():
     "llm_score": llm_score,
     "style_score": style_score,
     "confidence": result["confidence"],
-    "label": result["label"]
+    "label": result["label"],
+    "transparency": transparency
     })
