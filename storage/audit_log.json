@@ -1,0 +1,65 @@
+[
+    {
+        "creator_id": "yakubu",
+        "text": "This is another audit log test.",
+        "llm_score": 90,
+        "style_score": 50,
+        "confidence": 70,
+        "label": "Likely AI",
+        "timestamp": "2026-06-30T23:17:32.939683"
+    },
+    {
+        "creator_id": "yakubu",
+        "text": "Rate limit test",
+        "llm_score": 90,
+        "style_score": 50,
+        "confidence": 70,
+        "label": "Likely AI",
+        "timestamp": "2026-06-30T23:30:26.786603"
+    },
+    {
+        "creator_id": "yakubu",
+        "text": "Rate limit test",
+        "llm_score": 90,
+        "style_score": 50,
+        "confidence": 70,
+        "label": "Likely AI",
+        "timestamp": "2026-06-30T23:31:30.922865"
+    },
+    {
+        "creator_id": "yakubu",
+        "text": "Rate limit test",
+        "llm_score": 90,
+        "style_score": 50,
+        "confidence": 70,
+        "label": "Likely AI",
+        "timestamp": "2026-06-30T23:31:32.816581"
+    },
+    {
+        "creator_id": "yakubu",
+        "text": "Rate limit test",
+        "llm_score": 90,
+        "style_score": 50,
+        "confidence": 70,
+        "label": "Likely AI",
+        "timestamp": "2026-06-30T23:31:33.898611"
+    },
+    {
+        "creator_id": "yakubu",
+        "text": "Rate limit test",
+        "llm_score": 80,
+        "style_score": 50,
+        "confidence": 65,
+        "label": "Uncertain",
+        "timestamp": "2026-06-30T23:31:34.990849"
+    },
+    {
+        "creator_id": "yakubu",
+        "text": "Rate limit test",
+        "llm_score": 90,
+        "style_score": 50,
+        "confidence": 70,
+        "label": "Likely AI",
+        "timestamp": "2026-06-30T23:31:36.068779"
+    }
+]
